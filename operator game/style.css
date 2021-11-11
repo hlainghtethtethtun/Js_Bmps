@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Press+Start+2P&display=swap');
+/* font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Press Start 2P', cursive; */
+*{
+    background-color: #4287f5;
+}
+button,a{
+    cursor: pointer; 
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding: 40px;
+
+}
+
+h4{
+    color: #222222;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.btnDiv{
+    background-color: blue;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+}
+.btnDivFirst{
+    background-color: blue;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    padding: 10px 47px;
+    border: none;
+}
+.btnDivLast{
+    background-color: blue;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    padding: 10px 42px;
+    border: none;
+}
+button:active{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    background-color: #6b9fff;
+}
+.operator{
+    padding-top: 30px;
+    text-align: center;
+}
+.btnDivOne , .btnDivTwo{
+    margin: 20px;
+}
+
+.start{
+    text-align: center;
+    margin-top: 50px;
+}
+.linkStart{
+    text-decoration: none;
+}
+.spanStart:active{
+    color: white;
+    background-color: rgb(0, 89, 255);
+}
+.spanStart{
+    color: blue;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px -5px 7px #404752;
+}
+

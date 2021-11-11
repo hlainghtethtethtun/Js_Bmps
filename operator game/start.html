@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"> -->
+    <title>Start Game</title>
+    <link rel="stylesheet" href="start.css" type="text/css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <button class="new">New Game</button>
+        <!-- <div class="select">
+            <ul>
+                <li><a href="#">Addition +</a></li>
+                <li><a href="#">Subtraction -</a></li>
+                <li><a href="#">Multiplication x</a></li>
+                <li><a href="#">Division /</a></li>
+            </ul>
+        </div> -->
+        <div class="dropdown">
+            <button class="dropbtn">Choose One Operator <span>&dtrif;</span>
+            </button>
+            <div class="dropdown-content">
+                <a href="#"  class="operator-1">Addition +</a>
+                <a href="#" class="operator-2">Subtraction -</a>
+                <a href="#" class="operator-3">Multiplication x</a>
+                <a href="#" class="operator-4">Division /</a>
+            </div>
+        </div> 
+    </div>
+    
+    <section>
+            <input type="number" class="numberOne" />
+            <span class="something">?</span>
+            <input type="number" class="numberTwo" />
+
+            <span class="something">=</span>
+            <input type="number" class="numberResult" required>
+        </div>
+    </section>
+    
+    <p class="footer">Correct 🥳</p>
+    
+    <script src="start.js"></script>
+</body>
+</html>
